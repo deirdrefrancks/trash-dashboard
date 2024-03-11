@@ -1,0 +1,296 @@
+---
+title: "Trash dashboard"
+format: 
+  dashboard:
+    logo: images/ktb_logo_white.png
+    theme: custom.scss
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(plotly)
+
+ktb_dark <- "#005daa"
+ktb_medium <- "#859dca"
+ktb_light <- "#d9e2f5"
+ktb_green <- "#a6bc8b"
+
+MAX_YEAR <- 2023
+
+cleanups_tidy <- 
+  read_csv("https://raw.githubusercontent.com/deirdrefrancks/cleanups/main/data/cleanups_tidy.csv?token=GHSAT0AAAAAACOEHD4HJGINP3H3IZPONDXOZPPPMGQ") %>% 
+  filter(year <= MAX_YEAR)
+
+cleanups_summarized <-
+  cleanups_tidy %>% 
+  summarize(
+    num_events = n(),
+    num_years = n_distinct(year),
+    num_locations = n_distinct(location),
+    dist_crews = n_distinct(crew_name),
+    across(where(is.numeric), \(x) sum(x, na.rm = TRUE))
+  ) %>% 
+  select(-year)
+
+format_number <- scales::label_comma(accuracy = 1, big.mark = ",")
+```
+
+## Row {height=20%}
+
+### Events
+
+```{r}
+#| content: valuebox
+#| title: "Cleanup events"
+events <- format_number(cleanups_summarized$num_events)
+
+list(
+  icon  = "people-fill",
+  color = ktb_light,
+  value = events
+)
+```
+
+### Weight
+
+```{r}
+#| content: valuebox
+#| title: "Pounds of trash removed"
+ 
+weight <- format_number(cleanups_summarized$weight_lbs)
+
+list(
+  icon = "trash-fill",
+  color = ktb_medium,
+  value = weight
+)
+```
+
+### Acres
+
+```{r}
+#| content: valuebox
+#| title: "Acres cleaned"
+
+acres <- format_number(cleanups_summarized$area_acres)
+
+list(
+  icon = "tree-fill",
+  color = ktb_green,
+  value = acres
+)
+```
+
+## Row
+
+### Items {.tabset}
+
+#### Top items
+
+```{r fig.width = 5, fig.height = 8}
+fig_top_items <-
+  cleanups_tidy %>% 
+  summarize(
+    across(where(is.numeric), \(x) sum(x, na.rm = TRUE))
+  ) %>% 
+  select(-c(year:area_acres)) %>% 
+  pivot_longer(
+    cols = everything(),
+    names_to = "category",
+    values_to = "count"
+  ) %>% 
+  mutate(
+    category = str_replace_all(category, "_", " ") %>% str_to_sentence(),
+    category = str_replace_all(category, "pcs", "pieces"),
+    category = str_replace_all(category, "cups lids", "cups/lids"),
+    category = str_replace_all(category, "takeout plates", "takeout/plates"),
+    category =
+      case_match(
+        category,
+        "Metal cans caps tabs" ~ "Metal cans/caps/tabs",
+        "Dog waste pile"       ~ "Dog waste (pile)",
+        "Dog waste bag"        ~ "Dog waste (bagged)",
+        "Misc"                 ~ "Miscellaneous",
+        .default = category
+      )
+  ) %>% 
+  filter(category != "Miscellaneous") %>% 
+  slice_max(order_by = count, n = 10) %>% 
+  ggplot(
+    aes(
+      x = fct_reorder(category, count), 
+      y = count,
+      text = paste0(category, ": ", format_number(count))
+    )
+  ) +
+  geom_col(fill = ktb_medium) +
+  coord_flip() +
+  scale_y_continuous(labels = scales::comma_format(big.mark = ",")) +
+  theme_minimal() +
+  theme(
+    plot.title = element_text(hjust = 0.4)
+  ) +
+  labs(
+    title = "Top items collected (2014-2023)",
+    x = NULL,
+    y = "Count"
+  )
+
+ggplotly(fig_top_items, tooltip = c("text"))
+```
+
+
+#### All items
+
+```{r fig.width = 5, fig.height = 8}
+fig_all_items <-
+  cleanups_tidy %>% 
+  summarize(
+    across(where(is.numeric), \(x) sum(x, na.rm = TRUE))
+  ) %>% 
+  select(-c(year:area_acres)) %>% 
+  pivot_longer(
+    cols = everything(),
+    names_to = "category",
+    values_to = "count"
+  ) %>% 
+  mutate(
+    category = str_replace_all(category, "_", " ") %>% str_to_sentence(),
+    category = str_replace_all(category, "pcs", "pieces"),
+    category = str_replace_all(category, "cups lids", "cups/lids"),
+    category = str_replace_all(category, "takeout plates", "takeout/plates"),
+    category =
+      case_match(
+        category,
+        "Metal cans caps tabs" ~ "Metal cans/caps/tabs",
+        "Dog waste pile"       ~ "Dog waste (pile)",
+        "Dog waste bag"        ~ "Dog waste (bagged)",
+        "Misc"                 ~ "Miscellaneous",
+        .default = category
+      )
+  ) %>% 
+  ggplot(
+    aes(
+      fct_reorder(category, count), 
+      count,
+      text = paste0(category, ": ", format_number(count))
+    )
+  ) +
+  geom_col(fill = ktb_medium) +
+  coord_flip() +
+  scale_y_continuous(labels = scales::comma_format(big.mark = ",")) +
+  theme_minimal() +
+  theme(
+    plot.title = element_text(hjust = 0.4)
+  ) +
+  labs(
+    title = "All items collected (2014-2023)",
+    x = NULL,
+    y = "Count"
+  )
+
+ggplotly(fig_all_items, tooltip = c("text"))
+```
+
+### Cleanups {.tabset}
+
+#### Weight removed
+
+```{r include = FALSE}
+cleanups_total <-
+  cleanups_tidy %>% 
+  group_by(year) %>% 
+  summarize(
+    cleanup = "Total",
+    num_events = n(),
+    num_crews = n_distinct(crew_name),
+    weight_lbs = sum(weight_lbs, na.rm = TRUE)
+  ) %>% 
+  ungroup()
+
+cleanup_colors <- 
+  c(
+    "Community" = ktb_green,
+    "League" =  ktb_medium,
+    "Tahoe Blue Crew" = ktb_dark,
+    "Total" = "black"
+  )
+```
+
+```{r fig.height=6, fig.width=7}
+fig_weight_rm <-
+  cleanups_tidy %>% 
+  group_by(year, cleanup) %>% 
+  summarize(
+    num_events = n(),
+    num_crews = n_distinct(crew_name),
+    weight_lbs = sum(weight_lbs, na.rm = TRUE)
+  ) %>% 
+  ungroup() %>% 
+  ggplot(
+    aes(
+      year, 
+      weight_lbs, 
+      fill = fct_reorder2(cleanup, year, weight_lbs),
+      text = paste0(year, "<br>", cleanup, ": ", format_number(weight_lbs))
+    )
+  ) +
+  geom_col() +
+  scale_fill_manual(values = cleanup_colors) +
+  scale_x_continuous(breaks = seq(2014, 2024, 2)) +
+  scale_y_continuous(labels = scales::comma_format(big.mark = ",")) +
+  theme_minimal() +
+  theme(
+    plot.title = element_text(hjust = 0.4)
+  ) +
+  labs(
+    x = NULL,
+    y = NULL,
+    title = "Pounds of trash removed",
+    fill = "Cleanup type"
+  )
+
+ggplotly(fig_weight_rm, tooltip = c("text"))
+```
+
+#### Number of cleanups
+
+```{r fig.height=6, fig.width=7}
+fig_num_cleanups <-
+  cleanups_tidy %>% 
+  group_by(year, cleanup) %>% 
+  summarize(
+    num_events = n(),
+    num_crews = n_distinct(crew_name),
+    weight_lbs = sum(weight_lbs, na.rm = TRUE)
+  ) %>% 
+  ungroup() %>% 
+  bind_rows(cleanups_total) %>% 
+  ggplot(
+    aes(
+      year, 
+      num_events, 
+      color = fct_reorder2(cleanup, year, num_events)
+    )
+  ) +
+  geom_point(
+    aes(text = paste0(year, "<br>", cleanup, ": ", format_number(num_events)))
+  ) +
+  geom_line() +
+  scale_color_manual(values = cleanup_colors) +
+  scale_x_continuous(breaks = seq(2014, 2024, 2)) +
+  scale_y_continuous(labels = scales::comma_format(big.mark = ",")) +
+  theme_minimal() +
+  theme(
+    plot.title = element_text(hjust = 0.4)
+  ) +
+  labs(
+    x = NULL,
+    y = NULL,
+    title = "Number of cleanups",
+    color = "Cleanup type"
+  )
+
+ggplotly(fig_num_cleanups, tooltip = c("text"))
+```
+
