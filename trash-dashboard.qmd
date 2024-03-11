@@ -18,7 +18,7 @@ ktb_green <- "#a6bc8b"
 MAX_YEAR <- 2023
 
 cleanups_tidy <- 
-  read_csv("https://raw.githubusercontent.com/deirdrefrancks/cleanups/main/data/cleanups_tidy.csv?token=GHSAT0AAAAAACOEHD4HJGINP3H3IZPONDXOZPPPMGQ") %>% 
+  read_csv(here::here("data/cleanups_tidy.csv")) %>% 
   filter(year <= MAX_YEAR)
 
 cleanups_summarized <-
