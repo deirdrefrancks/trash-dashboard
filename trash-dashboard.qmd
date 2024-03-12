@@ -32,8 +32,15 @@ cleanups_summarized <-
   ) %>% 
   select(-year)
 
+cleanup_years <-
+  cleanups_tidy %>% 
+  pull(year) %>% 
+  unique()
+
 format_number <- scales::label_comma(accuracy = 1, big.mark = ",")
 ```
+
+# Summary
 
 ## Row {height=20%}
 
@@ -194,7 +201,7 @@ ggplotly(fig_all_items, tooltip = c("text"))
 
 ### Cleanups {.tabset}
 
-#### Weight removed
+#### Trash removed
 
 ```{r include = FALSE}
 cleanups_total <-
@@ -293,4 +300,23 @@ fig_num_cleanups <-
 
 ggplotly(fig_num_cleanups, tooltip = c("text"))
 ```
+
+# About
+
+This dashboard summarizes the results of trash cleanup events led by the League to 
+Save Lake Tahoe (Keep Tahoe Blue) between `r min(cleanup_years)` and `r max(cleanup_years)`.
+
+Learn more at [keeptahoeblue.org](https://www.keeptahoeblue.org/) and check out
+[volunteer opportunities](https://www.keeptahoeblue.org/volunteer/) in your area.
+
+
+
+
+
+
+
+
+
+
+
 
