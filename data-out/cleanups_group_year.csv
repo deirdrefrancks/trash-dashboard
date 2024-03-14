@@ -21,7 +21,6 @@ year,cleanup,num_events,num_crews,weight_lbs
 2022,Tahoe Blue Crew,318,53,6861.55
 2023,League,23,13,11148.55
 2023,Tahoe Blue Crew,402,75,10767.829
-2024,Tahoe Blue Crew,24,10,372.02
 2014,Total,38,1,4321.5
 2015,Total,49,21,5251.65
 2016,Total,46,19,6613.75
@@ -32,4 +31,3 @@ year,cleanup,num_events,num_crews,weight_lbs
 2021,Total,389,77,15295.36
 2022,Total,334,62,11396.55
 2023,Total,425,88,21916.379
-2024,Total,24,10,372.02

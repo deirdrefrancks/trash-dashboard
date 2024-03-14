@@ -23,7 +23,6 @@ date,year,card,cleanup,location,crew_name,num_volunteers,duration_hours,weight_l
 2021-05-15,2021,Old,Tahoe Blue Crew,Kings Beach - Zone 2 (Chipmonk ),@Xara,1,1.75,8,21,NA,14.5,5,3,8,11,5,27,6,7,0,0,5,0,2,9,5,15,45,75,5,7,9,1,14,0,100,3,0,7,8,NA,NA,0,15
 2021-07-02,2021,Old,Tahoe Blue Crew,"Kings Beach, Zone 1 and 2 (North part)",@Xara,1,3,12.18,25,NA,24.44,0,0,10,15,12,42,7,8,0,0,0,0,0,0,5,20,22,50,5,5,50,0,2,0,50,0,0,1,0,NA,NA,0,21
 2021-10-23,2021,Old,Tahoe Blue Crew,Kings Beach Zone 1,@Xara,1,0.75,6,15,NA,14.5,2,0,4,4,2,6,6,0,0,3,0,0,2,2,2,5,10,15,0,4,0,1,3,0,NA,0,0,0,1,NA,NA,0,10
-2024-01-01,2024,New,Tahoe Blue Crew,Meeks bay,A + M Marine,1,1.5,8,5,NA,1,0,NA,1,NA,3,0,0,0,0,1,0,0,0,1,NA,1,40,NA,0,0,3,4,0,NA,2,0,3,NA,NA,NA,NA,0,0
 2023-09-16,2023,New,Tahoe Blue Crew,Sugar Pine Pt,A + M Marine,1,1,2,12,NA,29.2,1,NA,NA,NA,6,0,0,2,0,0,2,0,1,2,NA,0,16,NA,0,0,0,0,0,NA,10,0,0,NA,NA,NA,NA,0,0
 2023-10-15,2023,New,Tahoe Blue Crew,Sugar Pine Pt Beach,A + M Marine,1,1,5,40,NA,29.2,2,NA,1,NA,6,3,2,0,0,0,3,0,1,3,NA,6,23,NA,3,0,0,0,0,NA,3,0,0,NA,NA,1,NA,0,0
 2023-12-25,2023,New,Tahoe Blue Crew,Meeks Bay,A + M Marine,1,1.5,6,4,NA,3.07,1,NA,NA,1,2,2,0,0,0,0,2,0,0,3,NA,4,25,NA,1,0,4,7,0,NA,3,0,0,NA,NA,NA,NA,0,0
@@ -241,7 +240,6 @@ date,year,card,cleanup,location,crew_name,num_volunteers,duration_hours,weight_l
 2022-06-30,2022,New,Tahoe Blue Crew,Donner Lake West End,Clean Livin' Crew,2,2.5,13.5,42,NA,13.1,10,1,6,1,8,20,17,2,0,9,7,1,1,13,2,38,146,NA,6,0,22,0,7,0,97,4,0,3,0,0,0,0,0
 2019-10-26,2019,Old,Tahoe Blue Crew,Zephyr Cove/Shoals,Clean Nevada,1,1.5,0.5,5,1,NA,1,1,2,0,8,2,2,0,1,1,0,0,0,2,0,2,43,8,1,4,2,2,0,0,6,0,0,1,0,NA,NA,0,3
 2021-01-19,2021,Old,Tahoe Blue Crew,64 Acres Lakeside,Clean Team,2,1,18,40,NA,NA,7,NA,3,2,5,21,4,1,1,2,2,1,1,2,2,3,16,11,1,7,1,5,3,NA,4,2,0,3,NA,NA,NA,0,13
-2024-03-09,2024,New,Tahoe Blue Crew,Spooner Sled Hill,Clean in a SNAP Crew,3,2,2.05,0.25,NA,5,4,NA,2,NA,1,0,3,0,8,0,0,0,0,2,0,14,55,NA,0,0,0,0,0,NA,2,0,0,NA,NA,NA,NA,0,0
 2023-03-23,2023,Old,Tahoe Blue Crew,Spooner Summit Sled Hill,Clean in a SNAP Crew,6,1,0.5,2,NA,1,0,NA,NA,NA,NA,0,0,0,2,0,0,0,2,0,NA,0,5,NA,4,0,0,0,0,NA,NA,0,0,NA,NA,NA,NA,7,0
 2023-07-06,2023,New,Tahoe Blue Crew,Chimney Beach,Clean in a SNAP Crew,5,2,21,20,NA,12.9,5,NA,2,43,15,5,10,0,1,8,1,1,10,16,30,10,55,NA,3,9,48,4,0,0,9,0,4,3,3,1,0,0,0
 2020-07-26,2020,Old,Tahoe Blue Crew,Hidden Beach parking lot,Cleaner Pastures,4,1,9,42,NA,5.9,2,NA,7,3,12,4,12,4,0,9,4,0,0,7,25,14,41,75,2,12,3,3,0,NA,18,0,0,2,NA,NA,NA,0,18
@@ -417,7 +415,6 @@ date,year,card,cleanup,location,crew_name,num_volunteers,duration_hours,weight_l
 2023-11-30,2023,New,Tahoe Blue Crew,Hyatt Zone,Hyatt Regency Lake Tahoe,11,0.5,100,0,NA,34.2,0,NA,NA,NA,NA,0,0,0,0,0,0,0,0,0,NA,0,0,NA,0,0,0,0,0,NA,NA,0,0,NA,NA,NA,NA,0,0
 2023-12-28,2023,New,Tahoe Blue Crew,HYATT REGENCY LAKE TAHOE,Hyatt Regency Lake Tahoe,8,1,32,3,NA,17.1,10,NA,NA,NA,1,2,1,21,0,0,11,0,0,11,NA,5,12,NA,0,6,12,0,0,0,83,0,0,1,NA,0,NA,0,0
 2019-09-17,2019,Old,Tahoe Blue Crew,Chimney Beach,Hyatt Regency Lake Tahoe,9,1.5,29,75,1,NA,3,0,14,15,30,62,3,4,0,2,2,1,3,5,0,1,94,47,2,6,31,7,0,0,52,3,0,13,2,NA,NA,0,82
-2024-01-03,2024,New,Tahoe Blue Crew,I Pick Up Litter,I Pick Up Litter,1,1,5,10,NA,3,3,NA,4,3,5,0,3,1,1,1,0,0,3,2,0,26,53,NA,0,0,0,3,2,0,26,0,11,1,3,0,NA,4,0
 2023-06-03,2023,New,Tahoe Blue Crew,Tahoe East Shore,IVGID Waste Not,19,3,60,240,NA,13.8,0,NA,NA,NA,NA,0,0,0,0,0,0,0,0,0,NA,0,0,NA,0,0,0,0,0,NA,NA,0,0,NA,NA,NA,NA,0,0
 2023-09-23,2023,New,Tahoe Blue Crew,Tahoe East Shore,IVGID Waste Not,8,3,60,240,NA,13.8,0,NA,NA,NA,NA,0,0,0,0,0,0,0,0,0,NA,0,0,NA,0,0,0,0,0,NA,NA,0,0,NA,NA,NA,NA,0,0
 2022-09-14,2022,New,Tahoe Blue Crew,Sweetwater Rd,IVGID Waste Not,2,2,15,40,NA,13.8,60,NA,25,NA,15,5,10,0,2,0,0,0,0,15,NA,50,105,NA,110,0,30,5,0,NA,12,0,0,10,5,NA,5,0,0
@@ -456,11 +453,6 @@ date,year,card,cleanup,location,crew_name,num_volunteers,duration_hours,weight_l
 2020-10-25,2020,Old,Tahoe Blue Crew,Oakland street neighborhood,Jumanji,1,2,4.5,5,NA,18.2,5,3,5,7,5,10,10,4,2,2,3,0,0,5,1,25,50,25,12,3,5,0,4,NA,50,3,0,6,NA,NA,NA,0,3
 2020-11-01,2020,Old,Tahoe Blue Crew,Oakland street neighborhood,Jumanji,2,2,9,7,NA,18.2,10,5,6,4,12,22,6,4,2,1,2,0,0,5,4,12,20,50,10,6,9,1,5,NA,50,3,0,2,NA,NA,NA,0,13
 2020-11-16,2020,Old,Tahoe Blue Crew,CVS bijou parking lot area,Jumanji,2,1.5,11,9,NA,5.4,13,10,12,20,9,37,25,5,5,3,5,3,5,10,8,18,25,25,5,3,6,1,14,NA,200,4,0,1,NA,NA,NA,0,43
-2024-03-06,2024,New,Tahoe Blue Crew,Kings Beach,KB Crew,1,7,15.8,10,NA,35,0,NA,NA,NA,NA,0,0,0,0,0,0,0,0,0,NA,0,0,NA,0,0,0,0,0,NA,112,0,0,NA,NA,NA,NA,0,0
-2024-02-10,2024,New,Tahoe Blue Crew,Kings Beach,KB Crew,1,7,3.61,5,NA,35,0,NA,NA,NA,NA,0,0,0,0,0,0,0,0,0,NA,0,0,NA,0,0,0,0,0,NA,18,0,0,NA,NA,NA,NA,0,0
-2024-02-09,2024,New,Tahoe Blue Crew,Kings Beach,KB Crew,1,7,2.56,5,NA,35,0,NA,NA,NA,NA,0,0,0,0,0,0,0,0,0,NA,0,0,NA,0,0,0,0,0,NA,98,0,0,NA,NA,NA,NA,0,0
-2024-01-26,2024,New,Tahoe Blue Crew,"Kings Beach & Tahoe Vista (beach, park, etc.)",KB Crew,1,7,5,5,NA,35,0,NA,NA,NA,NA,0,0,0,0,0,0,0,0,0,NA,0,0,NA,0,0,0,0,0,NA,139,0,0,NA,NA,NA,NA,0,0
-2024-01-10,2024,New,Tahoe Blue Crew,Kings Beach & Tahoe Vista Beach,KB Crew,1,7,10.3,NA,NA,35,0,NA,NA,NA,NA,0,0,0,0,0,0,0,0,0,NA,0,0,NA,0,0,0,0,0,NA,36,0,0,NA,NA,NA,NA,0,0
 2023-09-13,2023,New,Tahoe Blue Crew,Brook to Coon then beach to Edgelake pier,KB Crew,1,1.5,3.34,4,NA,127.5,4,NA,3,2,7,12,4,3,0,3,3,0,6,5,15,15,100,NA,2,2,24,4,0,NA,32,0,0,1,2,NA,NA,0,0
 2023-09-14,2023,New,Tahoe Blue Crew,Brook-Coon-Beach to Edgelake pier,KB Crew,1,1.5,1.45,1,NA,127.5,2,NA,4,1,6,4,2,3,0,1,2,1,2,3,6,4,25,NA,0,3,16,1,0,NA,23,0,0,NA,1,NA,NA,0,0
 2023-09-15,2023,New,Tahoe Blue Crew,Brook-Coon-Beach to Edgelake pier,KB Crew,1,2,3.61,3,NA,127.5,3,NA,2,2,7,12,2,3,0,4,4,0,6,4,6,6,75,NA,2,4,19,2,0,NA,27,0,0,1,3,NA,NA,0,0
@@ -586,7 +578,6 @@ date,year,card,cleanup,location,crew_name,num_volunteers,duration_hours,weight_l
 2020-10-12,2020,Old,Tahoe Blue Crew,In front of Holiday Market also from Apache to the Roundabout on the south side bike trail,Littermates,2,2,10.5,5,NA,2,8,1,3,2,6,11,5,1,0,0,1,0,1,6,1,48,42,65,6,9,11,1,1,NA,129,1,0,NA,NA,NA,NA,0,22
 2020-11-23,2020,Old,Tahoe Blue Crew,Parking lot at Hwy 50 across from Pomo St.,Littermates,1,0.25,25,2,NA,1,0,NA,NA,NA,NA,0,0,0,0,0,0,0,0,0,NA,0,0,NA,0,0,0,0,0,NA,NA,0,0,NA,NA,NA,NA,0,0
 2020-12-28,2020,Old,Tahoe Blue Crew,Lake Baron,Littermates,2,1,0,0,NA,9.33,0,NA,NA,NA,NA,0,0,0,0,0,0,0,0,0,NA,0,0,NA,0,0,0,0,1,NA,NA,0,0,NA,NA,NA,NA,0,0
-2024-02-13,2024,New,Tahoe Blue Crew,E. Venice Dr./TKB&H/Keys Vill. Ctr./Danube Dr. & dog park/Monterey Dr./Morro Dr./Inverness Dr./Keys Blvd. between Venice & Inverness,Loretta Friedel,1,2,7.5,7,NA,10,2,NA,1,1,2,0,1,4,0,0,1,0,2,0,0,13,22,NA,8,2,3,2,4,0,5,0,0,22,0,0,2,0,0
 2023-02-02,2023,Old,Tahoe Blue Crew,E. Venice Dr./Keys Marina /Keys Village Ctr./Danube Dr. /Morro Dr./Monterey Dr. /Inverness Dr. /Keys Blvd. between  Venice Dr.  and Inverness.,Loretta Friedel,1,2.5,7,7,NA,32,10,0,0,0,2,4,2,0,0,0,0,0,0,0,0,2,7,NA,0,0,0,1,1,0,3,0,0,16,12,0,0,0,0
 2023-03-25,2023,Old,Tahoe Blue Crew,"Keys Marina, E. Venice Dr., Keys Village Ctr., Danube,  Morro, Monterey,  Inverness,  Catalina,  Keys Blvd. between Venice and Catalina.",Loretta Friedel,1,2.5,11.5,9,NA,32,3,1,2,5,2,6,1,0,0,0,0,0,1,5,0,18,16,NA,1,0,0,1,2,0,2,0,0,34,0,0,0,0,0
 2023-04-12,2023,New,Tahoe Blue Crew,Keys Marina/E. Venice Dr./Keys Vill. Ctr./Danube Dr./Morro Dr./Monterey Dr./Keys Blvd. between Venice and Inverness Dr.,Loretta Friedel,1,2.5,9.5,10,NA,32,21,NA,11,4,0,12,2,1,2,0,0,0,0,0,0,4,8,NA,14,2,4,0,1,0,0,0,0,25,0,0,1,0,0
@@ -988,7 +979,6 @@ NA,2021,New,Tahoe Blue Crew,McKinney Shores HOA,McKinney Shores HOA,1,5,36,126,N
 2021-12-06,2021,New,Tahoe Blue Crew,Van Sickle,SOS South Shore,18,1,26.5,NA,NA,NA,0,1,3,2,4,16,2,1,1,12,6,1,1,1,20,21,58,NA,8,0,20,0,6,1,10,4,0,3,2,0,0,8,0
 2020-02-01,2020,Old,Tahoe Blue Crew,Harrah's sled hill,SOS South Shore,22,2,150,NA,NA,4.72,50,4,37,38,57,110,70,25,4,20,1,2,8,13,0,48,367,201,24,51,720,0,0,0,54,85,0,3,1,NA,NA,82,71
 2020-03-12,2020,Old,Tahoe Blue Crew,Ski Run Blvd Sled Hill,SOS South Shore,2,1.5,57,252,NA,7.95,4,1,16,11,7,26,6,7,0,0,0,1,0,1,NA,13,169,42,8,11,31,1,5,NA,1,1,0,1,NA,NA,NA,115,17
-2024-01-02,2024,New,Tahoe Blue Crew,Forest between Upper Truckee River and Trout Creek,Sabine Villamar,2,8,30,60,NA,11,20,NA,30,20,4,0,1,0,0,3,10,1,0,0,0,30,50,NA,20,0,50,20,1,0,6,0,0,6,30,0,2,0,0
 2020-01-28,2020,Old,Tahoe Blue Crew,Johnson Meadow East Trail,Sabine Villamar,1,1,15,5,NA,12.3,0,NA,1,NA,NA,0,0,0,0,0,0,0,0,0,NA,0,1,NA,0,0,0,0,0,NA,NA,0,0,NA,200,NA,NA,0,0
 2020-02-18,2020,Old,Tahoe Blue Crew,Johnson Meadow East Trail,Sabine Villamar,1,1,10,3,NA,12.3,0,NA,NA,NA,NA,3,3,0,0,1,0,0,0,0,NA,0,6,NA,0,0,0,0,0,NA,NA,0,0,NA,100,NA,NA,0,1
 2020-06-09,2020,Old,Tahoe Blue Crew,Johnson Meadow East Trail,Sabine Villamar,1,2,17,5,NA,12.3,0,NA,1,1,NA,2,0,0,0,1,0,0,0,0,NA,6,25,30,0,0,20,0,0,NA,5,0,0,1,60,NA,NA,0,4
@@ -997,7 +987,6 @@ NA,2021,New,Tahoe Blue Crew,McKinney Shores HOA,McKinney Shores HOA,1,5,36,126,N
 2020-10-26,2020,Old,Tahoe Blue Crew,Sierra Tract Upper Truckee River Trail,Sabine Villamar,1,2,8,5,NA,12.3,3,NA,NA,NA,NA,3,0,0,0,1,0,2,0,2,NA,5,50,100,0,0,10,1,0,NA,3,0,0,1,50,NA,NA,0,2
 2023-07-23,2023,New,Tahoe Blue Crew,Heavenly CA (Saddle Rd),Saddle Road Blue Crew,1,2,3,33,NA,83.5,0,NA,7,1,2,16,4,0,0,0,1,0,0,0,0,0,5,NA,0,0,0,1,0,0,5,0,0,0,0,0,0,0,0
 2023-09-23,2023,New,Tahoe Blue Crew,Heavenly Ca (Saddle Rd),Saddle Road Blue Crew,1,1,3.86,33,NA,83.5,0,NA,7,1,0,16,0,0,0,0,2,0,0,0,0,0,0,NA,0,0,0,0,1,0,10,0,0,0,0,0,0,10,0
-2024-01-04,2024,New,Tahoe Blue Crew,Taylor Creek Sno-Park,Samia and Scott Foster,1,0.5,3,5,NA,9,0,NA,4,0,2,0,0,1,0,0,0,0,1,0,0,1,7,NA,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
 2023-02-01,2023,Old,Tahoe Blue Crew,Taylor Creek Sno-Park,Samia and Scott Foster,2,0.5,1,2,NA,9.14,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,NA,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
 2023-04-11,2023,New,Tahoe Blue Crew,Taylor Creek Sno-Park,Samia and Scott Foster,2,1,17,32,NA,9.14,4,NA,9,3,14,18,4,2,0,4,1,0,3,4,1,17,96,NA,4,8,0,1,4,0,26,0,0,2,0,0,0,0,0
 2023-05-16,2023,New,Tahoe Blue Crew,Taylor Creek Sno-Park,Samia and Scott Foster,2,1.5,40,49,NA,9.14,14,NA,6,6,15,23,8,2,0,4,0,0,1,9,2,27,218,NA,2,49,13,3,9,0,39,0,0,4,5,0,0,14,0
@@ -1059,12 +1048,6 @@ NA,2021,Old,Tahoe Blue Crew,Powerline Trail,Sue Jameson,2,52,69,0,NA,311.8,15,NA
 2021-11-26,2021,Old,Tahoe Blue Crew,Glenridge to Tahoma Post Office,Sugar Pine,1,3,2,24,NA,NA,7,NA,1,3,5,12,4,0,0,1,0,0,1,1,NA,12,11,30,0,1,1,1,3,NA,8,0,0,1,NA,NA,NA,0,7
 2020-09-07,2020,Old,Tahoe Blue Crew,Sugarpine State Park,Sugar Pine,1,2,2,10,NA,7.35,1,NA,9,2,4,7,3,0,0,0,0,0,0,0,NA,5,0,16,0,0,0,1,3,NA,2,0,0,2,NA,NA,NA,0,8
 2023-09-17,2023,New,Tahoe Blue Crew,Summer Nancollas,Summer Nancollas - Margaritaville/Lake Tahoe Resort Hotel,8,2,75,132,NA,73,5,NA,3,5,NA,3,12,2,0,0,0,0,0,0,NA,10,0,NA,0,0,0,0,0,NA,26,0,0,7,NA,NA,1,2,0
-2024-03-08,2024,New,Tahoe Blue Crew,Zephyr Cove,Sweat the Small Stuff,2,0.5,0,0,NA,0,0,NA,NA,NA,NA,0,0,0,0,0,0,0,0,0,NA,0,0,NA,0,0,0,0,0,NA,NA,0,0,NA,NA,NA,NA,0,0
-2024-03-07,2024,New,Tahoe Blue Crew,Tahoe Keys,Sweat the Small Stuff,2,0.5,0,0,NA,0,0,NA,NA,NA,NA,0,0,0,0,0,0,0,0,0,NA,0,0,NA,0,0,0,0,0,NA,NA,0,0,NA,NA,NA,NA,0,0
-2024-01-14,2024,New,Tahoe Blue Crew,Zephyr Cove,Sweat the Small Stuff,2,1,0,0,NA,0,0,NA,NA,NA,NA,0,0,0,0,0,0,0,0,0,NA,0,0,NA,0,0,0,0,0,NA,NA,0,0,NA,NA,NA,NA,0,0
-2024-01-12,2024,New,Tahoe Blue Crew,Zephyr Cove,Sweat the Small Stuff,2,0.5,0,0,NA,0,0,NA,NA,NA,NA,0,0,0,0,0,0,0,0,0,NA,0,0,NA,0,0,0,0,0,NA,NA,0,0,NA,NA,NA,NA,0,0
-2024-01-10,2024,New,Tahoe Blue Crew,Kiva Beach,Sweat the Small Stuff,2,0.5,0,0,NA,0,0,NA,NA,NA,NA,0,0,0,0,0,0,0,0,0,NA,0,0,NA,0,0,0,0,0,NA,NA,0,0,NA,NA,NA,NA,0,0
-2024-01-09,2024,New,Tahoe Blue Crew,Zephyr Cove,Sweat the Small Stuff,2,0.5,0,0,NA,0,0,NA,NA,NA,NA,0,0,0,0,0,0,0,0,0,NA,0,0,NA,0,0,0,0,0,NA,NA,0,0,NA,NA,NA,NA,0,0
 2023-01-08,2023,New,Tahoe Blue Crew,Zephyr Cove,Sweat the Small Stuff,2,0.5,0,0,NA,0.1,0,NA,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,NA,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 2023-01-09,2023,New,Tahoe Blue Crew,Zephyr Cove Beach Walk,Sweat the Small Stuff,2,0.5,0,0,NA,0.1,0,NA,NA,NA,1,0,0,0,0,0,0,0,0,0,NA,0,2,NA,0,0,2,0,0,NA,1,0,0,NA,NA,NA,NA,0,0
 2023-01-17,2023,New,Tahoe Blue Crew,Zephyr Cove,Sweat the Small Stuff,2,0.5,0,0,NA,0.1,0,NA,NA,NA,NA,0,0,0,0,0,0,0,0,0,NA,0,1,NA,0,0,0,0,0,NA,NA,0,0,NA,NA,NA,NA,0,0
@@ -1216,8 +1199,6 @@ NA,2021,Old,Tahoe Blue Crew,Powerline Trail,Sue Jameson,2,52,69,0,NA,311.8,15,NA
 2019-04-08,2019,Old,Tahoe Blue Crew,"Berkeley, Lakeview, & Regan Beach",Tara's Tahoe,1,1,2,5,0.3,NA,0,NA,NA,NA,NA,0,0,0,0,0,0,0,0,0,NA,0,0,NA,0,0,0,0,0,NA,16,0,0,NA,NA,NA,NA,0,0
 2019-09-02,2019,Old,Tahoe Blue Crew,NW Al Tahoe,Tara's Tahoe,1,2,1.25,NA,1,NA,0,NA,NA,NA,NA,0,0,0,0,0,0,0,0,0,NA,0,0,NA,0,0,0,0,0,NA,42,0,0,NA,NA,NA,NA,0,0
 2019-09-18,2019,Old,Tahoe Blue Crew,NW Al Tahoe,Tara's Tahoe,1,1,1.5,NA,1,NA,0,NA,NA,NA,NA,0,0,0,0,0,0,0,0,0,NA,0,0,NA,0,0,0,0,0,NA,29,0,0,NA,NA,NA,NA,0,0
-2024-02-29,2024,New,Tahoe Blue Crew,Tata 4 Tahoe Blue - approx half zone,Tata 4 Tahoe Blue,1,1.5,7.25,10,NA,10,14,NA,17,7,26,0,12,1,0,1,2,0,0,6,0,9,9,NA,3,1,0,0,3,1,22,0,0,1,11,0,0,0,0
-2024-01-20,2024,New,Tahoe Blue Crew,Tata 4 Tahoe Blue,Tata 4 Tahoe Blue,1,0.5,4.4,10,NA,10,6,NA,9,1,3,0,2,2,0,0,1,0,1,0,0,7,7,NA,0,34,0,0,1,0,0,0,0,0,9,0,0,0,0
 2023-04-22,2023,New,Tahoe Blue Crew,The Y,Tata 4 Tahoe Blue,1,3,12.456,42,NA,10.48,15,NA,75,25,85,35,15,10,3,15,5,2,15,23,0,35,35,NA,5,10,0,0,3,1,50,0,0,1,5,0,1,0,0
 2023-04-29,2023,New,Tahoe Blue Crew,El Dorado Beach and Bike Path from Sno-Flake Drive-In to Lodi Ave,Tata 4 Tahoe Blue,1,2,8.913,54,NA,20.95,25,NA,40,20,45,5,20,10,1,10,5,2,15,10,0,35,10,NA,2,2,0,0,5,0,10,0,0,0,3,0,2,7,0
 2023-07-07,2023,New,Tahoe Blue Crew,Tata (to B St) to Tahoe Valley Post Office and back,Tata 4 Tahoe Blue,1,2.25,6.19,26,NA,8.38,37,NA,31,0,43,13,9,1,0,6,12,1,2,15,0,52,67,NA,6,14,1,3,4,0,283,0,0,0,2,0,3,0,0
@@ -1243,19 +1224,6 @@ NA,2021,Old,Tahoe Blue Crew,Powerline Trail,Sue Jameson,2,52,69,0,NA,311.8,15,NA
 2021-08-10,2021,New,Tahoe Blue Crew,Logan shoals,Team Luna,2,1.5,2.5,5,NA,5.35,0,0,6,3,1,6,1,2,0,0,1,1,1,1,1,1,38,NA,2,0,2,13,1,0,56,0,0,0,0,0,0,0,0
 2021-09-21,2021,New,Tahoe Blue Crew,Logan shoals,Team Luna,1,1,1.5,2,NA,5.35,0,0,3,0,1,6,0,0,0,0,0,0,1,0,0,0,24,NA,1,0,2,6,0,0,15,1,0,0,0,0,0,0,0
 2021-11-25,2021,New,Tahoe Blue Crew,Logan shoals,Team Luna,1,2,6.5,35,NA,NA,42,40,18,8,16,8,16,0,5,0,0,5,7,11,0,127,222,NA,57,0,35,25,6,0,61,0,0,1,0,0,0,0,0
-2024-03-10,2024,New,Tahoe Blue Crew,"Glenbrook Beach, NV",Team Uppaway,1,1,4,2,NA,5,0,NA,NA,NA,NA,0,0,0,0,0,0,0,0,0,NA,0,0,NA,0,0,0,0,0,NA,NA,0,0,NA,NA,NA,NA,0,0
-2024-03-06,2024,New,Tahoe Blue Crew,Glenbrook Beach,Team Uppaway,1,1.5,9,5,NA,5,0,NA,NA,NA,NA,0,0,0,0,0,0,0,0,0,NA,0,0,NA,0,0,0,0,0,NA,NA,0,0,NA,NA,NA,NA,0,0
-2024-02-25,2024,New,Tahoe Blue Crew,"US 50 between Glenbrook and the Glenbrook fire station + just north of the Safeway parking lot, adjacent to the Safeway.",Team Uppaway,2,4.5,73,80,NA,5,0,NA,NA,NA,NA,0,0,0,0,0,0,0,0,0,NA,0,0,NA,0,0,0,0,0,NA,NA,0,0,NA,NA,NA,NA,0,0
-2024-02-24,2024,New,Tahoe Blue Crew,US 50 north of Zephyr Cove Beach,Team Uppaway,1,1.75,26,40,NA,5,0,NA,NA,NA,NA,0,0,0,0,0,0,0,0,0,NA,0,0,NA,0,0,0,0,0,NA,NA,0,0,NA,NA,NA,NA,0,0
-2024-02-18,2024,New,Tahoe Blue Crew,US 50 at Zephyr cove beach + going north past the senior center,Team Uppaway,2,3,47,50,NA,5,0,NA,NA,NA,NA,0,0,0,0,0,0,0,0,0,NA,0,0,NA,0,0,0,0,0,NA,NA,0,0,NA,NA,NA,NA,0,0
-2024-02-17,2024,New,Tahoe Blue Crew,Round Hill Safeway along fence + US 50 going north,Team Uppaway,1,2,58,50,NA,5,0,NA,NA,NA,NA,0,0,0,0,0,0,0,0,0,NA,0,0,NA,0,0,0,0,0,NA,NA,0,0,NA,NA,NA,NA,0,0
-2024-02-13,2024,New,Tahoe Blue Crew,US 50 from Glenbrook to south of Logan Shoals point and going north past pines resort.,Team Uppaway,1,1.25,21,50,NA,5,0,NA,NA,NA,NA,0,0,0,0,0,0,0,0,0,NA,0,0,NA,0,0,0,0,0,NA,NA,0,0,NA,NA,NA,NA,0,0
-2024-01-29,2024,New,Tahoe Blue Crew,North of Logan shoals to cave rock and then Lake ridge development going north towards cave rock,Team Uppaway,1,1,10,15,NA,5,0,NA,NA,NA,NA,0,0,0,0,0,0,0,0,0,NA,0,0,NA,0,0,0,0,0,NA,NA,0,0,NA,NA,NA,NA,0,0
-2024-01-28,2024,New,Tahoe Blue Crew,US 50 going north from Glenbrook and going south from NDOT over the guardrail.,Team Uppaway,1,3,48,50,NA,5,0,NA,NA,NA,NA,0,0,0,0,0,0,0,0,0,NA,0,0,NA,0,0,0,0,0,NA,NA,0,0,NA,NA,NA,NA,0,0
-2024-01-27,2024,New,Tahoe Blue Crew,US 50 over the guardrail across from the Shakespeare Point trail.,Team Uppaway,1,1.75,39,40,NA,5,0,NA,NA,NA,NA,0,0,0,0,0,0,0,0,0,NA,0,0,NA,0,0,0,0,0,NA,NA,0,0,NA,NA,NA,NA,0,0
-2024-01-21,2024,New,Tahoe Blue Crew,US 50 from Logan Creek to Glenbrook post office and north of Glenbrook to intersection of 28 and 50.,Team Uppaway,2,2,35,30,NA,5,0,NA,NA,NA,NA,0,0,0,0,0,0,0,0,0,NA,0,0,NA,0,0,0,0,0,NA,NA,0,0,NA,NA,NA,NA,0,0
-2024-01-20,2024,New,Tahoe Blue Crew,US 50 south of Logan Shoals Vista Point north to Logan Creek,Team Uppaway,1,2.5,95,50,NA,5,0,NA,NA,NA,NA,0,0,0,0,0,0,0,0,0,NA,0,0,NA,0,0,0,0,0,NA,NA,0,0,NA,NA,NA,NA,0,0
-2024-01-19,2024,New,Tahoe Blue Crew,"US 50 south of Logan Shoals Vista Point towards Glenbrook, Nevada.",Team Uppaway,1,1.5,48,50,NA,5,0,NA,NA,NA,NA,0,0,0,0,0,0,0,0,0,NA,0,0,NA,0,0,0,0,0,NA,NA,0,0,NA,NA,NA,NA,0,0
 2023-01-28,2023,Old,Tahoe Blue Crew,US 50 between Glenbrook and the first turnout south of Logan Shoals Point,Team Uppaway,1,1.5,12,40,NA,5,0,NA,NA,NA,NA,0,0,0,0,0,0,0,0,0,NA,0,0,NA,0,0,0,0,0,NA,NA,0,0,NA,NA,NA,NA,0,0
 2023-03-23,2023,Old,Tahoe Blue Crew,"US 50 at Logan Creek Estates, Glenbrook and Zephyr Cove",Team Uppaway,1,1.5,57,60,NA,5,0,NA,NA,NA,NA,0,0,0,0,0,0,0,0,0,NA,0,0,NA,0,0,0,0,0,NA,NA,0,0,NA,NA,NA,NA,0,0
 2023-03-25,2023,Old,Tahoe Blue Crew,US 50 from Glenbrook to Zephyr Cove (north of Safeway),Team Uppaway,1,3,74,80,NA,5,0,NA,NA,NA,NA,0,0,0,0,0,0,0,0,0,NA,0,0,NA,0,0,0,0,0,NA,NA,0,0,NA,NA,NA,NA,0,0
@@ -1520,13 +1488,11 @@ NA,2021,Old,Tahoe Blue Crew,Powerline Trail,Sue Jameson,2,52,69,0,NA,311.8,15,NA
 2023-05-25,2023,New,Tahoe Blue Crew,"Grove Street, Pioneer Way, Jackpine & Red Cedar Streets",Trash Force TC,2,3,37,50,NA,13.2,7,NA,9,0,16,9,7,4,0,2,0,0,3,23,5,5,166,NA,5,23,48,2,2,0,56,0,0,3,3,0,0,0,0
 2023-08-08,2023,New,Tahoe Blue Crew,Grove to Jackpine streets,Trash Force TC,3,3,38,42,NA,17.6,6,NA,9,21,13,13,4,2,2,2,3,1,5,16,5,43,151,NA,3,225,250,0,6,0,197,0,1,0,7,0,0,0,0
 2023-10-28,2023,New,Tahoe Blue Crew,Grove Street environs Tahoe City,Trash Force TC,1,2,4.5,15,NA,17.6,3,NA,2,11,5,13,6,5,0,0,0,0,3,1,0,15,45,NA,3,8,150,5,2,0,20,0,0,0,2,0,0,0,0
-2024-01-07,2024,New,Tahoe Blue Crew,Spooner Sled Hill,Tree-O Crew,2,2,7.3,0,NA,10,1,NA,4,0,0,0,4,2,3,0,0,0,0,0,0,5,33,NA,3,0,0,0,6,0,0,0,0,1,0,0,0,16,0
 2023-02-19,2023,New,Tahoe Blue Crew,Fallen leaf sled hill,Tree-O Crew,2,2,4.7,0,NA,13.6,2,NA,8,2,1,6,4,1,0,0,0,0,0,2,5,7,18,NA,2,0,7,2,1,0,2,0,0,0,1,0,0,3,0
 2023-07-29,2023,New,Tahoe Blue Crew,Vikingsholm Trailhead roadside,UPS,7,3,23,33,NA,4.11,23,NA,33,25,19,7,11,10,15,30,10,15,15,25,5,40,0,NA,5,2,0,5,10,0,79,0,0,0,0,1,0,0,0
 2023-10-02,2023,New,Tahoe Blue Crew,Vikingsholm Trailhead,UPS,2,2,7,15,NA,2.05,30,NA,40,15,15,2,5,10,5,10,0,5,5,15,5,20,5,NA,0,0,0,0,5,0,30,0,0,0,0,0,0,0,0
 2021-06-09,2021,Old,Tahoe Blue Crew,CTZ-Zone 2A,Vogel Crew,1,1,2,7,NA,0.88,1,0,0,0,3,6,4,1,0,7,2,0,1,8,0,5,8,68,0,1,0,0,3,0,88,0,0,0,0,NA,NA,0,10
 2020-09-08,2020,Old,Tahoe Blue Crew,CTC - 2A,Vogel Crew,1,2,2,13,NA,1.76,3,1,1,1,3,2,13,2,0,1,1,0,0,21,3,17,8,110,2,0,0,1,0,0,55,0,0,0,0,NA,NA,0,27
-2024-02-27,2024,New,Tahoe Blue Crew,ZPne1,Whole Foods Market Blue Crew,3,2,5,1,NA,6,6,NA,14,3,12,0,10,5,1,1,0,0,8,11,27,55,63,NA,5,20,0,6,7,0,57,0,0,0,3,0,0,0,0
 2023-05-12,2023,New,Tahoe Blue Crew,Zone 1,Whole Foods Market Blue Crew,10,1,42,84,NA,3.44,12,NA,29,66,26,65,24,21,12,14,18,15,28,41,21,48,164,NA,10,38,15,9,0,0,12,0,1,3,1,0,1,2,0
 2023-06-20,2023,New,Tahoe Blue Crew,Zone1,Whole Foods Market Blue Crew,8,1.5,25.68,33,NA,6.87,30,NA,10,19,10,35,20,25,2,8,29,0,7,47,5,75,62,NA,4,25,23,40,47,0,195,0,0,2,1,0,0,2,0
 2023-07-27,2023,New,Tahoe Blue Crew,2,Whole Foods Market Blue Crew,5,1.15,10,33,NA,6.87,12,NA,7,6,5,11,20,6,0,1,5,0,5,28,1,15,5,NA,0,0,2,8,10,0,45,0,0,0,0,0,0,1,0
