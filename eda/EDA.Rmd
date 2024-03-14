@@ -1,0 +1,75 @@
+---
+title: "EDA for Trash Dashboard"
+output: github_document
+---
+
+```{r setup, include = FALSE}
+library(tidyverse)
+
+MAX_YEAR <- 2023
+
+cleanups_tidy <- 
+  read_csv(here::here("data/cleanups_tidy.csv")) %>% 
+  filter(year <= MAX_YEAR)
+
+cleanups_summarized <-
+  cleanups_tidy %>% 
+  summarize(
+    num_events = n(),
+    num_years = n_distinct(year),
+    num_locations = n_distinct(location),
+    dist_crews = n_distinct(crew_name),
+    across(where(is.numeric), \(x) sum(x, na.rm = TRUE)),
+    total_items = 
+      sum(
+        plastic_bags, paper_bags, plastic_bottles, glass_bottles, 
+        plastic_bottle_caps, metal_cans_caps_tabs, plastic_cups_lids,
+        paper_cups_lids, foam_cups_lids, plastic_takeout_plates,
+        paper_takeout_plates, foam_takeout_plates, utensils, straws,
+        food_waste, food_wrappers, plastic_pcs, paper_pcs, foam_pcs,
+        metal_pcs, glass_pcs, sanitary_items, covid_items, syringes,
+        cigarette_butts, tobacco, fireworks, dog_waste_bag, dog_waste_pile,
+        human_waste, wildlife_waste_trash, sled_pcs, misc
+      )
+  ) %>% 
+  select(-year)
+```
+
+```{r}
+# Cigarette butts per area
+cleanups_tidy %>%
+  group_by(year) %>% 
+  summarize(
+    across(where(is.numeric), \(x) sum(x, na.rm = TRUE))
+  ) %>% 
+  mutate(
+    cig_per_acre = cigarette_butts / area_acres
+  ) %>% 
+  ggplot(aes(year, cig_per_acre)) +
+  geom_point() +
+  geom_line()
+```
+
+```{r}
+# Total items per area
+cleanups_tidy %>%
+  group_by(year) %>% 
+  summarize(
+    across(where(is.numeric), \(x) sum(x, na.rm = TRUE))
+  ) %>% 
+  pivot_longer(
+    cols = plastic_bags:misc
+  ) %>% 
+  group_by(year) %>% 
+  summarize(
+    area_acres,
+    
+  )
+  mutate(
+    cig_per_acre = cigarette_butts / area_acres
+  ) %>% 
+  ggplot(aes(year, cig_per_acre)) +
+  geom_point() +
+  geom_line()
+```
+
