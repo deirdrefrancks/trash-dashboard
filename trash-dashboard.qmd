@@ -71,6 +71,21 @@ list(
 )
 ```
 
+### Items
+
+```{r}
+#| content: valuebox
+#| title: "Items collected"
+
+items <- format_number(cleanups_summarized$total_items)
+
+list(
+  icon = "card-checklist",
+  color = ktb_medium,
+  value = items
+)
+```
+
 ### Weight
 
 ```{r}
@@ -81,23 +96,8 @@ weight <- format_number(cleanups_summarized$weight_lbs)
 
 list(
   icon = "trash-fill",
-  color = ktb_medium,
-  value = weight
-)
-```
-
-### Items
-
-```{r}
-#| content: valuebox
-#| title: "Items collected"
-
-items <- format_number(cleanups_summarized$total_items)
-
-list(
-  icon = "tree-fill",
   color = ktb_green,
-  value = items
+  value = weight
 )
 ```
 
