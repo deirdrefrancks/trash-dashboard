@@ -9,6 +9,30 @@ cleanups_tidy <-
 
 cleanups_tidy %>% 
   summarize(
+    num_events = n(),
+    num_years = n_distinct(year),
+    num_locations = n_distinct(location),
+    dist_crews = n_distinct(crew_name),
+    across(where(is.numeric), \(x) sum(x, na.rm = TRUE))
+  ) %>% 
+  mutate(
+    total_items = 
+      sum(
+        plastic_bags, paper_bags, plastic_bottles, glass_bottles, 
+        plastic_bottle_caps, metal_cans_caps_tabs, plastic_cups_lids,
+        paper_cups_lids, foam_cups_lids, plastic_takeout_plates,
+        paper_takeout_plates, foam_takeout_plates, utensils, straws,
+        food_waste, food_wrappers, plastic_pcs, paper_pcs, foam_pcs,
+        metal_pcs, glass_pcs, sanitary_items, covid_items, syringes,
+        cigarette_butts, tobacco, fireworks, dog_waste_bag, dog_waste_pile,
+        human_waste, wildlife_waste_trash, sled_pcs, misc
+      )
+  ) %>% 
+  select(-year) %>% 
+  write_csv(here::here("data-out/cleanups_summarized.csv"))
+
+cleanups_tidy %>% 
+  summarize(
     across(where(is.numeric), \(x) sum(x, na.rm = TRUE))
   ) %>% 
   select(-c(year:area_acres)) %>% 
